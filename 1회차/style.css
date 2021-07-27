@@ -17,6 +17,10 @@ body {
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0,0,0.08);
 }
 
+.canvas:hover {
+	cursor: pointer;
+}
+
 .controls {
 	margin-top: 60px;
 	display: flex;
@@ -34,6 +38,8 @@ body {
 
 .controls__btns button {
 	all: unset;
+	width: 50px;
+	text-align: center;
 	cursor: pointer;
 	background-color: #fff;
 	padding: 6px 14px;
